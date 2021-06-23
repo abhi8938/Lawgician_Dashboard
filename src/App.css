@@ -1,0 +1,80 @@
+.login{
+  overflow: hidden;
+  display: block;
+  background-color: azure;
+  padding:2vh;
+  height:100vh;
+  align-content: flex-start;
+}
+.App{
+  overflow: hidden;
+  display: block;
+  background-color: azure;
+  padding:2vh;
+  height:120vh;
+  align-content: flex-start;
+}
+.inputField{
+  color: rgb(238, 238, 238)
+}
+.filterCol{
+  display: flex;
+  align-items: center;
+}
+
+.subsection{
+  display: grid;
+  margin-bottom: 1vh;
+}
+.leftDivision{
+  padding: 1vh;
+margin-top: 16.5vh;
+height:72vh;
+background-color: coral
+}
+.wrapper{
+  min-height: 90vh;
+  width: 90%;
+  margin-left: 6%;
+}
+.rightDivision{
+padding:.1vh
+}
+.navlink{
+  margin-left: 2%
+}
+.sendsection{
+  display: flex;
+  align-items: center;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.label:hover{
+  background-color:rgba(0, 0, 0, 0.13);
+}
+
+.label{
+margin-top: 15px;
+background-color:rgba(0, 0, 0, 0.1);
+padding:10px;
+border-radius: 5px;
+color:#fff;
+cursor: pointer;
+}
+.button{
+  text-align: end;
+}
+.Image{
+background-image: 'https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+}
+.cardItem{
+  background-color: aqua;
+display: grid;
+width:50%;
+border-radius: 10px;
+padding: 10px;
+margin-bottom: 15px;
+}
